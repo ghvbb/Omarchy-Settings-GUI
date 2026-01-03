@@ -1220,7 +1220,7 @@ class OmarchySettingsWindow(Adw.ApplicationWindow):
         subtitle.add_css_class("dim-label")
         subtitle.add_css_class("caption")
         
-        version = Gtk.Label(label="v2.3")
+        version = Gtk.Label(label="v3.0")
         version.add_css_class("dim-label")
         version.add_css_class("caption")
         
