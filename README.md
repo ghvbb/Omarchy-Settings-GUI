@@ -8,7 +8,7 @@ Open-Source 100%
 1. **Clone the repository**
 
 ```bash
-git clone <repo-url>
+git clone --depth 1 https://github.com/ghvbb/Omarchy-Settings-GUI.git
 ```
 
 2. **Change to the app directory**
@@ -31,7 +31,7 @@ cd Omarchy-Settings-GUI
      Run the included script:
 
      ```bash
-     ./ohmyinstall.sh
+     sh ohmyinstall.sh
      ```
 
 4. **.desktop file example**
