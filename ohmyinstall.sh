@@ -15,7 +15,7 @@ if ! command -v yay &> /dev/null; then
     exit 1
 fi
 
-# 2. Sync and Install Dependencies
+
 echo -e "${YELLOW}[1/4] Installing dependencies via yay...${NC}"
 DEPENDENCIES="python python-gobject gtk3 gtk4 python-pip"
 yay -S --needed --noconfirm $DEPENDENCIES
@@ -53,7 +53,7 @@ EOF
 chmod +x "$DESKTOP_FILE"
 echo -e "${GREEN}[+] Desktop Entry created at ~/.local/share/applications/${NC}"
 
-# 5. Finalize
+
 echo -e "\n${YELLOW}[4/4] Finalizing...${NC}"
 update-desktop-database "$HOME/.local/share/applications" &> /dev/null
 
