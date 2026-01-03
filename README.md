@@ -1,5 +1,6 @@
-Here’s a polished, clearer, and more professional version of your README instructions while keeping them simple and easy to follow:
-
+**Omarchy-Settings-GUI**
+it's an new modern app that let you  Change Settings of Hyprland config files With GUI App 
+Open-Source 100%
 ---
 
 ## How to Run the App
