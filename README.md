@@ -24,7 +24,7 @@ cd Omarchy-Settings-GUI
      Copy `omarchy-settings.desktop` to:
 
      ```text
-     /home/mohamedxa/.local/share/applications
+     /home/$YOUR-USERNAME/.local/share/applications
      ```
 
    * **Option 2: Using the installer script**
@@ -40,7 +40,7 @@ cd Omarchy-Settings-GUI
 ```ini
 [Desktop Entry]
 Type=Application
-Name=Omarchy Settings
+Name=Settings
 Comment=Liquid Glass Configuration Manager for Hyprland
 Exec=python3 ~/.config/hypr/omarchy-control.py
 Icon=preferences-system
